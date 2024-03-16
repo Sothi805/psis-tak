@@ -1,2 +1,2 @@
-# psis-tak
- 
+# Run Project
+npm run dev

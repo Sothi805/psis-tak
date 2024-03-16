@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Angkor&family=Battambang&family=Bebas+Neue&family=Honk&family=Koulen&family=Moul&family=Open+Sans:wght@400;600&family=Pathway+Gothic+One&family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,600&family=Teko:wght@500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  /* background-color: #8EC5FC; */
+  /* background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%); */
+  box-sizing: border-box;
+  font-family: 'Battambang', system-ui;
+}
+p{
+  font-size: 13px;
+}

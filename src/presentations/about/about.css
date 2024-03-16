@@ -1,0 +1,16 @@
+.line{
+--max-lines: 25; /* Define a custom property for the maximum number of lines */
+display: -webkit-box; /* Use the flexible box layout model */
+overflow: hidden; /* Hide any content that overflows the box */
+-webkit-box-orient: vertical; /* Set the box layout to vertical */
+-webkit-line-clamp: var(--max-lines); /* Limit the number of displayed lines */
+
+
+}
+.jus-b{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 64%, rgba(252,176,69,1) 100%);
+}
+.img-r{
+    clip-path: polygon(0 0, 79% 0, 100% 60%, 100% 100%, 0 100%, 0% 50%);
+}
